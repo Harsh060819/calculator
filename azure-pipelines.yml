@@ -9,8 +9,8 @@ trigger:
 pool:
   name: Ubuntu-self hosted
   demands:
-  - agent.name -equals 
-Selfhosted1
+  - agent.name -equals Selfhosted1
+
 
 steps:
 - task: NodeTool@0
